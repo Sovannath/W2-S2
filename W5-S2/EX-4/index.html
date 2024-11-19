@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h2><i style="margin: 10px;color:#4c9af1 ;" class="fa-solid fa-square"></i><i style="color:#ff7096 ;" class="fa-solid fa-circle"></i><i style="margin: 10px; color: #ff8b42;" class="fa-solid fa-play"></i></h2>
+      <ul>
+        <li><i class="fa-solid fa-house"></i> <span style="margin:10px;">Dashboard</span></li>
+        <!-- class="active" -->
+        <li><i class="fa-solid fa-credit-card"></i> <span style="margin: 10px;">Cards</span></li>
+        <li><i class="fa-solid fa-chart-line"></i><span style="margin: 10px;">Statistics</span></li>
+        <li><i class="fa-solid fa-crown"></i><span style="margin: 10px;">Premium</span></li>
+        <li><i class="fa-solid fa-user"></i><span style="margin: 10px;">Profile</span></li>
+        <li><i class="fa-solid fa-gear"></i><span style="margin: 10px;">Settings</span></li>
+      </ul>
+      <div class="premium">
+        <p>Use our Premium features now!</p>
+        <button><i class="fa-solid fa-crown"></i> <span style="margin: 10px;">Get Premium</span></button>
+      </div>
+    </div>
+    <!-- Main Content -->
+    <div class="main-content">
+      <header>
+        <h1> <i class="fa-regular fa-user"></i><span style="margin:20px;">Hello, Vuthsovannath</span></h1>
+        <input type="text" placeholder="Search" >
+      </header>
+      <div class="abacard">
+        <div class="card-title">ABA BANK.</div>
+        <div class="wave-icon">📶</div>
+        <div class="card-info"> NEM VUTHSOVANNATH</div>
+        <div class="card-info">01/25</div>
+        <div class="card-number">1234 1234 1234 1234</div>
+        <div class="card-details">
+            <span>VISA</span>
+            <div class="visa-logo">VISA</div>
+        </div>
+    </div>
+      <div class="cards">
+        <div class="card pink">**** 5678 <span>NEM VUTHSOVANNATH</span></div>
+        <div class="card blue">**** 5678 <span>NEM VUTHSOVANNATH</span></div>
+      </div>
+      <div class="top-activities">
+        <h3>Top Activities</h3>
+        <ul>
+          <li><img style="width: 50px;" src="./img/visa.png" alt="visacard"> </li>
+          <li><img style="width: 50px; margin-bottom: 18px;" src="./img/mastercard.jpg" alt="masterchad">  </li>
+          <li><i class="fa-solid fa-plus"></i> Add New Card</li>
+          
+        </ul>
+      </div>
+      <div class="reports">
+        <h3 > Reports</h3>
+        <div class="chart"><img style="width: 40vw; padding-left: 50px; border-radius: 5px;" src=".//img/report_graph.png" alt=""></div>
+      </div>
+      <div class="expense">
+        <h3 style="text-decoration:underline;">Expenses</h3>
+        <ul>
+          <li>Utility<span style="color: #ff8b42; margin:10px;">$847.00</span></li>
+          <li>Taxi  <span style="color: #ff8b42; margin:16px;">$586.50</span></li>
+          <li>Food<span style="color: #ff8b42; margin:12px;">$685.50</span></li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+</body>
+</html>
